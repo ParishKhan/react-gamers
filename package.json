@@ -1,0 +1,57 @@
+{
+  "name": "react-gamers",
+  "version": "1.0.0",
+  "description": "A React App Build With IGDB API.",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.server.js && webpack --config webpack.config.client.js",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "source-map-support": "^0.4.14"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "null-loader": "^0.1.1",
+    "redux-devtools-extension": "^2.13.0",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.4.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParishKhan/react-gamers.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "React-router",
+    "Server-rendering",
+    "IGDB"
+  ],
+  "author": "Parish Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParishKhan/react-gamers/issues"
+  },
+  "homepage": "https://github.com/ParishKhan/react-gamers#readme"
+}
